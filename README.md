@@ -58,10 +58,10 @@ To replicate this analysis, follow these steps:
     pip install -r requirements.txt
     ```
 
-4.  **Run the analysis:**
-    Launch Jupyter and open the notebook located in the `notebooks/` directory.
+4.  **Run the analysis script:**
+    Execute the main Python script from the root of the project directory. The script will perform the full data analysis, train the models, and save all generated figures to the `reports/figures/` folder.
     ```bash
-    jupyter notebook
+    python src/main.py
     ```
 
 ## Authors
